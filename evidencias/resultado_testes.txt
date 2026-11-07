@@ -1,0 +1,32 @@
+test_ler_inteiro_fora_do_limite (test_sistema.TestEntradas.test_ler_inteiro_fora_do_limite) ... ok
+test_ler_inteiro_invalido (test_sistema.TestEntradas.test_ler_inteiro_invalido) ... ok
+test_ler_texto_opcional (test_sistema.TestEntradas.test_ler_texto_opcional) ... ok
+test_ler_texto_vazio (test_sistema.TestEntradas.test_ler_texto_vazio) ... ok
+test_analise_lista_vazia (test_sistema.TestListaVazia.test_analise_lista_vazia) ... ok
+test_buscar_em_lista_vazia (test_sistema.TestListaVazia.test_buscar_em_lista_vazia) ... ok
+test_lista_comeca_vazia (test_sistema.TestListaVazia.test_lista_comeca_vazia) ... ok
+test_ordenar_lista_vazia (test_sistema.TestListaVazia.test_ordenar_lista_vazia) ... ok
+test_remover_em_lista_vazia (test_sistema.TestListaVazia.test_remover_em_lista_vazia) ... ok
+test_atualizar (test_sistema.TestOperacoes.test_atualizar) ... ok
+test_atualizar_inexistente (test_sistema.TestOperacoes.test_atualizar_inexistente) ... ok
+test_buscar_id_inexistente (test_sistema.TestOperacoes.test_buscar_id_inexistente) ... ok
+test_buscar_por_id (test_sistema.TestOperacoes.test_buscar_por_id) ... ok
+test_contar_por_categoria (test_sistema.TestOperacoes.test_contar_por_categoria) ... ok
+test_id_duplicado (test_sistema.TestOperacoes.test_id_duplicado) ... ok
+test_inserir (test_sistema.TestOperacoes.test_inserir) ... ok
+test_inserir_depois_de_ordenar (test_sistema.TestOperacoes.test_inserir_depois_de_ordenar) ... ok
+test_ordenacao_estavel (test_sistema.TestOperacoes.test_ordenacao_estavel) ... ok
+test_ordenar_por_id (test_sistema.TestOperacoes.test_ordenar_por_id) ... ok
+test_ordenar_por_titulo (test_sistema.TestOperacoes.test_ordenar_por_titulo) ... ok
+test_pesquisa_parcial_titulo (test_sistema.TestOperacoes.test_pesquisa_parcial_titulo) ... ok
+test_pesquisa_sem_acento (test_sistema.TestOperacoes.test_pesquisa_sem_acento) ... ok
+test_pesquisa_sem_resultado (test_sistema.TestOperacoes.test_pesquisa_sem_resultado) ... ok
+test_proximo_id (test_sistema.TestOperacoes.test_proximo_id) ... ok
+test_remover_inexistente (test_sistema.TestOperacoes.test_remover_inexistente) ... ok
+test_remover_inicio_meio_fim (test_sistema.TestOperacoes.test_remover_inicio_meio_fim) ... ok
+test_remover_unico_elemento (test_sistema.TestOperacoes.test_remover_unico_elemento) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.004s
+
+OK

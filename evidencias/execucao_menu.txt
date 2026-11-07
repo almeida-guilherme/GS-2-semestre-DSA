@@ -1,0 +1,358 @@
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Serviços cadastrados ---
+Nenhum serviço cadastrado.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Consultar por ID ---
+A lista está vazia.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Análise ---
+Nenhum serviço cadastrado para analisar.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: Opção inválida, tente de novo.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: Opção inválida, tente de novo.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 8 serviço(s) de exemplo adicionados.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Serviços cadastrados ---
+  [101] Emissão de RG (Documentação)
+  [102] Vacinação contra gripe (Saúde)
+  [103] Cadastro no CadÚnico (Assistência social)
+  [104] Curso de informática básica (Educação)
+  [105] Troca de lâmpada de poste (Serviços urbanos)
+  [106] Consulta com clínico geral (Saúde)
+  [107] Carteira de Trabalho Digital (Documentação)
+  [108] Bolsa Família (Assistência social)
+Total: 8
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Cadastrar serviço ---
+ID: Já existe um serviço com o ID 101. Cadastro cancelado.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Cadastrar serviço ---
+ID: Título: Esse campo não pode ficar vazio.
+Título: Categorias:
+  1 - Saúde
+  2 - Assistência social
+  3 - Documentação
+  4 - Educação
+  5 - Serviços urbanos
+Escolha a categoria: Descrição: Requisitos: Local de atendimento: Serviço cadastrado com sucesso!
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Consultar por ID ---
+ID: ID: 200
+Título: Emissão de CPF
+Categoria: Documentação
+Descrição: Inscrição ou regularização do CPF.
+Requisitos: RG
+Local: Receita Federal
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Consultar por ID ---
+ID: Nenhum serviço encontrado com o ID 999.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Pesquisar ---
+1 - Título
+2 - Categoria
+3 - Local
+Pesquisar por: Termo da pesquisa: 2 resultado(s):
+  [102] Vacinação contra gripe (Saúde)
+  [106] Consulta com clínico geral (Saúde)
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Pesquisar ---
+1 - Título
+2 - Categoria
+3 - Local
+Pesquisar por: Termo da pesquisa: Nenhum serviço encontrado para "passaporte".
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Ordenar ---
+1 - ID
+2 - Título
+3 - Categoria
+Ordenar por: Lista ordenada (Merge Sort):
+  [108] Bolsa Família (Assistência social)
+  [103] Cadastro no CadÚnico (Assistência social)
+  [107] Carteira de Trabalho Digital (Documentação)
+  [106] Consulta com clínico geral (Saúde)
+  [104] Curso de informática básica (Educação)
+  [200] Emissão de CPF (Documentação)
+  [101] Emissão de RG (Documentação)
+  [105] Troca de lâmpada de poste (Serviços urbanos)
+  [102] Vacinação contra gripe (Saúde)
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Atualizar serviço ---
+ID do serviço: ID: 104
+Título: Curso de informática básica
+Categoria: Educação
+Descrição: Curso gratuito de introdução ao computador e internet.
+Requisitos: Ter 16 anos ou mais, RG
+Local: Telecentro municipal
+
+Deixe em branco para manter o valor atual.
+Novo título: Categorias:
+  1 - Saúde
+  2 - Assistência social
+  3 - Documentação
+  4 - Educação
+  5 - Serviços urbanos
+Escolha a categoria (0 para manter): Nova descrição: Novos requisitos: Novo local: Serviço atualizado.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Consultar por ID ---
+ID: ID: 104
+Título: Curso de informática básica
+Categoria: Educação
+Descrição: Curso gratuito de introdução ao computador e internet.
+Requisitos: Ter 16 anos ou mais, RG
+Local: Telecentro municipal (sábados, 9h às 12h)
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Excluir serviço ---
+ID do serviço: [105] Troca de lâmpada de poste (Serviços urbanos)
+Confirma a exclusão? (s/n): Serviço removido.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Excluir serviço ---
+ID do serviço: Nenhum serviço encontrado com o ID 999.
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: 
+--- Análise ---
+Total de serviços: 8
+Serviços por categoria:
+  Saúde                  2  (25.0%) ##
+  Assistência social     2  (25.0%) ##
+  Documentação           3  (37.5%) ###
+  Educação               1  (12.5%) #
+  Serviços urbanos       0  (0.0%) 
+
+===== Citizen Assist AI =====
+1 - Cadastrar serviço
+2 - Listar serviços
+3 - Consultar por ID
+4 - Pesquisar
+5 - Atualizar serviço
+6 - Excluir serviço
+7 - Ordenar
+8 - Análise
+9 - Carregar dados de exemplo
+0 - Sair
+Opção: Encerrando o sistema. Até mais!

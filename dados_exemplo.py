@@ -1,0 +1,38 @@
+from servico import Servico
+
+
+def gerar_exemplos():
+    return [
+        Servico(101, "Emissão de RG", "Documentação",
+                "Primeira via ou segunda via da carteira de identidade.",
+                "Certidão de nascimento ou casamento, CPF",
+                "Poupatempo Sé"),
+        Servico(102, "Vacinação contra gripe", "Saúde",
+                "Campanha anual de vacinação para grupos prioritários.",
+                "Cartão SUS e documento com foto",
+                "UBS mais próxima"),
+        Servico(103, "Cadastro no CadÚnico", "Assistência social",
+                "Cadastro para acessar programas sociais do governo.",
+                "CPF de todos da família, comprovante de residência",
+                "CRAS do bairro"),
+        Servico(104, "Curso de informática básica", "Educação",
+                "Curso gratuito de introdução ao computador e internet.",
+                "Ter 16 anos ou mais, RG",
+                "Telecentro municipal"),
+        Servico(105, "Troca de lâmpada de poste", "Serviços urbanos",
+                "Pedido de reparo de iluminação pública.",
+                "Endereço e número do poste",
+                "Portal SP156 ou telefone 156"),
+        Servico(106, "Consulta com clínico geral", "Saúde",
+                "Agendamento de consulta na atenção básica.",
+                "Cartão SUS e comprovante de residência",
+                "UBS de referência"),
+        Servico(107, "Carteira de Trabalho Digital", "Documentação",
+                "Acesso à carteira de trabalho pelo aplicativo.",
+                "CPF e conta gov.br",
+                "Aplicativo CTPS Digital"),
+        Servico(108, "Bolsa Família", "Assistência social",
+                "Programa de transferência de renda para famílias.",
+                "Estar inscrito no CadÚnico e cumprir renda exigida",
+                "CRAS do bairro"),
+    ]
