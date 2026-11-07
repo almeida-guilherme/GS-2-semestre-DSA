@@ -205,7 +205,7 @@ def tela_analise():
         })
     dados = pd.DataFrame(linhas).set_index("Categoria")
     st.table(dados)
-    st.bar_chart(dados["Quantidade"])
+    st.bar_chart(dados["Quantidade"], sort=False)
 
 
 TELAS = {
