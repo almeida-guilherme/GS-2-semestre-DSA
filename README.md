@@ -2,6 +2,8 @@
 
 Global Solution 2026.2 (Citizen Tech) - Data Structures and Algorithms.
 
+**App publicado:** https://citizen-assist-dsa.streamlit.app/
+
 Sistema em Python, rodando no terminal, para cadastrar e consultar serviços e orientações ao cidadão. Os dados ficam numa lista encadeada feita por nós, e a busca e a ordenação também são implementação própria.
 
 ## Como executar
@@ -27,7 +29,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Abre no navegador em `http://localhost:8501`, numa tela de boas-vindas com o botão "Iniciar". O menu fica na barra lateral, junto com o botão para carregar os dados de exemplo e o botão "Encerrar". Encerrar leva para uma tela de agradecimento, que tem o botão "Fazer mais registros" para voltar ao cadastro. Como o Streamlit executa o script de novo a cada clique, a lista fica guardada em `st.session_state`. Os dados duram enquanto a aba estiver aberta.
+Também está publicada no Streamlit Community Cloud: https://citizen-assist-dsa.streamlit.app/
+
+Rodando local, abre no navegador em `http://localhost:8501`, numa tela de boas-vindas com o botão "Iniciar". O menu fica na barra lateral, junto com o botão para carregar os dados de exemplo e o botão "Encerrar". Encerrar leva para uma tela de agradecimento, que tem o botão "Fazer mais registros" para voltar ao cadastro. Como o Streamlit executa o script de novo a cada clique, a lista fica guardada em `st.session_state`. Os dados duram enquanto a aba estiver aberta.
 
 No cadastro, o campo ID já vem com o próximo ID livre (maior ID + 1, pelo método `proximo_id()`). Ele continua editável, então um ID repetido ainda é recusado com mensagem de erro.
 
