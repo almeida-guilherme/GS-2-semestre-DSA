@@ -19,7 +19,7 @@ def tabela(servicos):
         {"ID": s.id, "Título": s.titulo, "Categoria": s.categoria, "Local": s.local}
         for s in servicos
     ]
-    st.table(pd.DataFrame(linhas).set_index("ID"))
+    st.table(pd.DataFrame(linhas), hide_index=True)
 
 
 def detalhes(servico):
@@ -87,9 +87,14 @@ def tela_listar():
 
 def tela_consultar():
     st.header("Consultar por ID")
-    id_busca = st.number_input("ID", min_value=1, step=1, key="id_consulta")
+    id_busca = st.number_input("ID", min_value=1, step=1, value=None,
+                               placeholder="Digite o ID", key="id_consulta")
     if st.button("Buscar"):
-        servico = lista.buscar_por_id(int(id_busca))
+        if id_busca is None:
+            st.error("Digite um ID para buscar.")
+            return
+        id_busca = int(id_busca)
+        servico = lista.buscar_por_id(id_busca)
         if servico is None:
             st.warning(f"Nenhum serviço encontrado com o ID {id_busca}.")
         else:
@@ -116,7 +121,11 @@ def tela_pesquisar():
 
 def tela_atualizar():
     st.header("Atualizar serviço")
-    id_busca = int(st.number_input("ID do serviço", min_value=1, step=1, key="id_atualizar"))
+    id_busca = st.number_input("ID do serviço", min_value=1, step=1, value=None,
+                               placeholder="Digite o ID", key="id_atualizar")
+    if id_busca is None:
+        return
+    id_busca = int(id_busca)
     servico = lista.buscar_por_id(id_busca)
     if servico is None:
         st.warning(f"Nenhum serviço encontrado com o ID {id_busca}.")
@@ -150,7 +159,11 @@ def tela_atualizar():
 
 def tela_excluir():
     st.header("Excluir serviço")
-    id_busca = int(st.number_input("ID do serviço", min_value=1, step=1, key="id_excluir"))
+    id_busca = st.number_input("ID do serviço", min_value=1, step=1, value=None,
+                               placeholder="Digite o ID", key="id_excluir")
+    if id_busca is None:
+        return
+    id_busca = int(id_busca)
     servico = lista.buscar_por_id(id_busca)
     if servico is None:
         st.warning(f"Nenhum serviço encontrado com o ID {id_busca}.")
