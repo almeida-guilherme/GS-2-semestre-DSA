@@ -210,3 +210,7 @@ O arquivo `evidencias/execucao_menu.txt` tem a saída de uma execução real do 
 - André Santos de Azevedo - RM572236
 - Guilherme Henrique de Almeida - RM568708
 - Renan de Castro Albuquerque - RM570532
+
+## Link da demonstração
+
+https://youtu.be/V_nqdLl-3GM
